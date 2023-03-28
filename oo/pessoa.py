@@ -1,9 +1,9 @@
 class Pessoa():
+    olhos = 2;
     def __init__(self, *filhos, nome = None, idade = 35):
         self.nome = nome
         self.idade = idade
         self.filhos = list(filhos)
-
     def cumprimentar(self):
         return f'Ola Pessoa {id(self)}'
 
