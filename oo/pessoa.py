@@ -1,5 +1,5 @@
 class Pessoa():
-    olhos = 2;
+    olhos = 2
     def __init__(self, *filhos, nome = None, idade = 35):
         self.nome = nome
         self.idade = idade
